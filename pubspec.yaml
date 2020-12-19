@@ -1,0 +1,15 @@
+name: webapp
+description: A Flutter plugin for creating a website-based native application.
+version: 1.0.0
+author: Leynier Gutiérrez González <https://leynier.github.io>
+homepage: https://github.com/leynier/webapp
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+  flutter: ">=1.17.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  url_launcher: ^5.7.10
+  webview_flutter: ^1.0.7
